@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script>
+            function updateDate() {
+                document.getElementById("current-date").innerText = new Date().toDateString();
+                    console.log("Date updated successfully")
+            }
+        </script>
+    </head>
+<body>
+    <header class="page-header" id="nav">
+    <h1>Cover Letter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Home</p></a></li>
+                <li><a href="resume.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Resume</p></a> </li>
+                <li><a href="goals.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Career Goals</p></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Dear Hiring Manager</h2>
+                <p><strong>I'm excited</strong> to apply for the <em>Software Engineering position</em> at <mark>Adobe</mark>. I believe my skills in Javascript, HTML and CSS, combined with my enthusiasm for coding, make me a <span>strong candidate for this role</span>. I am eager ton contribute to your company's success and grow my skills within your team.</p>
+            </article>
+        </section>
+    </main>
+
+
+    <footer class="page-footer">
+        <hr>
+        <p>Find me on:</p>
+        <div class="social-media">
+            <a
+                class="social-media--icon"
+                href="https://www.linkedin.com/in/austin-quintana-b17132140/"
+                target="_blank"><img src="img/linkedin.png" alt="linkedIn" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

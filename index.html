@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script>
+            function updateDate() {
+                document.getElementById("current-date").innerText = new Date().toDateString();
+                    console.log("Date updated successfully")
+            }
+        </script>
+    </head>
+
+    <body onload="updateDate()">
+        <header class="page-header" id="nav">
+            <h1>My Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="resume.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Resume</p></a> </li>
+                        <li><a href="letter.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Cover Letter</p></a></li>
+                        <li><a href="goals.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Career Goals</p></a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <main>
+            <div id="current-date"></div>
+            <section>
+                <h2>Welcome</h2>
+                <p>Welcome to my portfolio, here you'll find my <strong>resume</strong>, <em>cover letter</em> and <mark>Career Goals</mark>.</p>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <hr>
+            <p>Find me on:</p>
+            <div class="social-media">
+                <a
+                    class="social-media--icon"
+                    href="https://www.linkedin.com/in/austin-quintana-b17132140/"
+                    target="_blank"><img src="img/linkedin.png" alt="linkedIn" />
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

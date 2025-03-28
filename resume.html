@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script>
+            function updateDate() {
+                document.getElementById("current-date").innerText = new Date().toDateString();
+                    console.log("Date updated successfully")
+            }
+        </script>
+    </head>
+
+<body onload="updateDate()">
+<header class="page-header" id="nav">
+    <h1>Resume</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Home</p></a></li>
+                <li><a href="letter.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Cover Letter</p></a></li>
+                <li><a href="goals.html" role="menuitem" class="menuitem active"><p class="nav-item" role="presentation">Career Goals</p></a></li>
+            </ul>
+        </nav>
+</header>
+<main>
+    <section>
+        <h2>Austin Quintana</h2>
+        <div id="current-date"></div>
+        <p><strong>Email:</strong> austinquintana07@gmail.com</p>
+        <p><strong>Phone</strong> 385-221-2123</p>
+    </section>
+    <section>
+        <h3>Experience</h3>
+        <article>
+            <h4>Technical Support</h4>
+            <p><em>Weave</em></p>
+            <p>Skills I learned in this role are <span>problem-solving</span> and <span>communication</span>.</p>
+        </article>
+
+        <article>
+            <h4>Software Engineer Internship</h4>
+            <p><em>Microsoft</em></p>
+            <p>Skills I learned in this role are <span>Test-Development</span> and <span>Code Debugging within a team</span>.</p>
+        </article>
+    </section>
+    <section>
+        <h3>Skills</h3>
+        <article>
+            <ul>
+                <li>Technical Support</li>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+            </ul>
+        </article>
+    </section>
+    <section>
+        <h3>Education</h3>
+        <table>
+            <caption>Educatational background</caption>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>GPA</th>
+                </tr>
+                <tr>
+                    <td>BS in Software Engineering</td>
+                    <td>Western Governors University</td>
+                    <td>2028</td>
+                    <td>3.5</td>
+                </tr>
+                <tr>
+                    <td>Full-Stack Web Development Certificate</td>
+                    <td>Career Foundry</td>
+                    <td>2023</td>
+                    <td>4.0</td>
+                </tr>
+                <tr>
+                    <td>MS in AI Machine Learning</td>
+                    <td>Western Governors University</td>
+                    <td>2032</td>
+                    <td>TBD</td>
+                </tr>
+        </table>
+    </section>
+</main>
+
+<footer class="page-footer">
+    <hr>
+    <p>Find me on:</p>
+    <div class="social-media">
+        <a
+            class="social-media--icon"
+            href="https://www.linkedin.com/in/austin-quintana-b17132140/"
+            target="_blank"><img src="img/linkedin.png" alt="linkedIn" />
+        </a>
+    </div>
+</footer>
+</body>
+</html>

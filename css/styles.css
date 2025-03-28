@@ -1,0 +1,140 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin:20px;
+    padding: 20px;
+    background-color: #b5bbc5;
+}
+
+/* Headings */
+h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+/* Menu Items */
+.menuitem:active {
+    color: #4c9bb6;
+  }
+  
+  .menuitem {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .active:hover,
+  .active:focus {
+    cursor: default;
+  }
+  
+/* Navigation Right */ 
+  .nav-right {
+    display: flex;
+    padding-right: 30px;
+  }
+  
+/* Active Link */
+  .active {
+    color: #4c9bb6;
+  }
+
+/* Link styling */
+a {
+    color: var(--platinum);
+  }
+  
+a:visited {
+    color: var(--platinum);
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+  
+a:active {
+    color: var(--slate-grey);
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 100px;
+    background-color: #4c9bb6;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: all 250ms ease-in-out;
+  }
+  
+  form:hover,
+  form:focus {
+    box-shadow: 1px 14px 20px 4px rgba(113, 111, 114, 0.1);
+  }
+  
+  input,
+  textarea {
+    border: 1px solid #4c9bb6;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* profile img */
+.profile-img {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Page Footer */
+.page-footer {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
