@@ -18,7 +18,7 @@ h1 {
     margin: 10px 0 30px;
     line-height: 80px;
   }
-  
+    
   h2 {
     font-size: 30px;
     font-weight: 600;
@@ -28,6 +28,11 @@ h1 {
   h3 {
     font-size: 30px;
     font-weight: 500;
+  }
+
+  section p {
+    color: #222;
+    line-height: 1.6;
   }
 
 /* Menu Items */
@@ -50,6 +55,12 @@ h1 {
   .nav-right {
     display: flex;
     padding-right: 30px;
+  }
+
+  #nav {
+    background-color: #4c9bb6;
+    padding: 20px;
+    border-radius: 10px;
   }
   
 /* Active Link */
